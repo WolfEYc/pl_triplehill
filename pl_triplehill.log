@@ -1,0 +1,2081 @@
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading C:\Users\isaac\maps\pl_triplehill\pl_triplehill.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\isaac\maps\pl_triplehill\pl_triplehill.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (204289 bytes)
+Error! To use model "models/hybridphysx/badwater_destruction_before.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/hybridphysx/badwater_destruction_before.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 430 texinfos to 222
+Reduced 13 texdatas to 12 (306 bytes to 259)
+Writing C:\Users\isaac\maps\pl_triplehill\pl_triplehill.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'C:\Users\isaac\maps\pl_triplehill\pl_triplehill.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 458, actual size 378
+0 seconds elapsed
+
+
+
+32 threads
+reading c:\users\isaac\maps\pl_triplehill\pl_triplehill.bsp
+reading c:\users\isaac\maps\pl_triplehill\pl_triplehill.prt
+ 842 portalclusters
+2489 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 3150 visible clusters (0.77%)
+Total clusters visible: 407609
+Average clusters visible: 484
+Building PAS...
+Average clusters audible: 834
+visdatasize:181934  compressed from 188608
+writing c:\users\isaac\maps\pl_triplehill\pl_triplehill.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\isaac\maps\pl_triplehill\pl_triplehill.bsp', but we don't own that location. Allowing.
+21 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading c:\users\isaac\maps\pl_triplehill\pl_triplehill.bsp
+3001 faces
+2 degenerate faces
+797080 square feet [114779520.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+2999 patches before subdivision
+61193 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 6159722, max 713
+transfer lists:  47.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0056 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  65/1024         3120/49152    ( 6.3%) 
+brushes                544/8192         6528/98304    ( 6.6%) 
+brushsides            3482/65536       27856/524288   ( 5.3%) 
+planes                1504/65536       30080/1310720  ( 2.3%) 
+vertexes              4617/65536       55404/786432   ( 7.0%) 
+nodes                 2083/65536       66656/2097152  ( 3.2%) 
+texinfos               222/12288       15984/884736   ( 1.8%) 
+texdata                 12/2048          384/65536    ( 0.6%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 3001/65536      168056/3670016  ( 4.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1687/65536       94472/3670016  ( 2.6%) 
+leaves                2149/65536       68768/2097152  ( 3.3%) 
+leaffaces             3463/65536        6926/131072   ( 5.3%) 
+leafbrushes           1230/65536        2460/131072   ( 1.9%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            20985/512000      83940/2048000  ( 4.1%) 
+edges                12170/256000      48680/1024000  ( 4.8%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            301/32768        3010/327680   ( 0.9%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          4617/65536        9234/131072   ( 7.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     1106540/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      181934/16777216 ( 1.1%) 
+entdata               [variable]       75790/393216   (19.3%) 
+LDR ambient table     2149/65536        8596/262144   ( 3.3%) 
+HDR ambient table     2149/65536        8596/262144   ( 3.3%) 
+LDR leaf ambient      1243/65536       34804/1835008  ( 1.9%) 
+HDR leaf ambient      2149/65536       60172/1835008  ( 3.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/15294    ( 0.0%) 
+pakfile               [variable]         378/0        ( 0.0%) 
+physics               [variable]      204289/4194304  ( 4.9%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 8234
+Writing c:\users\isaac\maps\pl_triplehill\pl_triplehill.bsp
+6 seconds elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading C:\Users\isaac\maps\pl_triplehill\pl_triplehill.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\isaac\maps\pl_triplehill\pl_triplehill.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (204289 bytes)
+Error! To use model "models/hybridphysx/badwater_destruction_before.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/hybridphysx/badwater_destruction_before.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 430 texinfos to 222
+Reduced 13 texdatas to 12 (306 bytes to 259)
+Writing C:\Users\isaac\maps\pl_triplehill\pl_triplehill.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'C:\Users\isaac\maps\pl_triplehill\pl_triplehill.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 458, actual size 378
+0 seconds elapsed
+
+
+
+32 threads
+reading c:\users\isaac\maps\pl_triplehill\pl_triplehill.bsp
+reading c:\users\isaac\maps\pl_triplehill\pl_triplehill.prt
+ 842 portalclusters
+2489 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 3148 visible clusters (0.77%)
+Total clusters visible: 407607
+Average clusters visible: 484
+Building PAS...
+Average clusters audible: 834
+visdatasize:181934  compressed from 188608
+writing c:\users\isaac\maps\pl_triplehill\pl_triplehill.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\isaac\maps\pl_triplehill\pl_triplehill.bsp', but we don't own that location. Allowing.
+20 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading c:\users\isaac\maps\pl_triplehill\pl_triplehill.bsp
+3001 faces
+2 degenerate faces
+797080 square feet [114779520.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+2999 patches before subdivision
+61193 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 6159722, max 713
+transfer lists:  47.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0056 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  65/1024         3120/49152    ( 6.3%) 
+brushes                544/8192         6528/98304    ( 6.6%) 
+brushsides            3482/65536       27856/524288   ( 5.3%) 
+planes                1504/65536       30080/1310720  ( 2.3%) 
+vertexes              4617/65536       55404/786432   ( 7.0%) 
+nodes                 2083/65536       66656/2097152  ( 3.2%) 
+texinfos               222/12288       15984/884736   ( 1.8%) 
+texdata                 12/2048          384/65536    ( 0.6%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 3001/65536      168056/3670016  ( 4.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1687/65536       94472/3670016  ( 2.6%) 
+leaves                2149/65536       68768/2097152  ( 3.3%) 
+leaffaces             3463/65536        6926/131072   ( 5.3%) 
+leafbrushes           1230/65536        2460/131072   ( 1.9%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            20985/512000      83940/2048000  ( 4.1%) 
+edges                12170/256000      48680/1024000  ( 4.8%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            301/32768        3010/327680   ( 0.9%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          4617/65536        9234/131072   ( 7.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     1106540/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      181934/16777216 ( 1.1%) 
+entdata               [variable]       71156/393216   (18.1%) 
+LDR ambient table     2149/65536        8596/262144   ( 3.3%) 
+HDR ambient table     2149/65536        8596/262144   ( 3.3%) 
+LDR leaf ambient      1243/65536       34804/1835008  ( 1.9%) 
+HDR leaf ambient      2149/65536       60172/1835008  ( 3.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/15294    ( 0.0%) 
+pakfile               [variable]         378/0        ( 0.0%) 
+physics               [variable]      204289/4194304  ( 4.9%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 8234
+Writing c:\users\isaac\maps\pl_triplehill\pl_triplehill.bsp
+6 seconds elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading C:\Users\isaac\maps\pl_triplehill\pl_triplehill.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\isaac\maps\pl_triplehill\pl_triplehill.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (204289 bytes)
+Error! To use model "models/hybridphysx/badwater_destruction_before.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/hybridphysx/badwater_destruction_before.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 430 texinfos to 222
+Reduced 13 texdatas to 12 (306 bytes to 259)
+Writing C:\Users\isaac\maps\pl_triplehill\pl_triplehill.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'C:\Users\isaac\maps\pl_triplehill\pl_triplehill.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 458, actual size 378
+0 seconds elapsed
+
+
+
+32 threads
+reading c:\users\isaac\maps\pl_triplehill\pl_triplehill.bsp
+reading c:\users\isaac\maps\pl_triplehill\pl_triplehill.prt
+ 842 portalclusters
+2489 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 3149 visible clusters (0.77%)
+Total clusters visible: 407606
+Average clusters visible: 484
+Building PAS...
+Average clusters audible: 834
+visdatasize:181934  compressed from 188608
+writing c:\users\isaac\maps\pl_triplehill\pl_triplehill.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\isaac\maps\pl_triplehill\pl_triplehill.bsp', but we don't own that location. Allowing.
+21 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading c:\users\isaac\maps\pl_triplehill\pl_triplehill.bsp
+3001 faces
+2 degenerate faces
+797080 square feet [114779520.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+2999 patches before subdivision
+61193 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 6159722, max 713
+transfer lists:  47.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0057 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  65/1024         3120/49152    ( 6.3%) 
+brushes                544/8192         6528/98304    ( 6.6%) 
+brushsides            3482/65536       27856/524288   ( 5.3%) 
+planes                1504/65536       30080/1310720  ( 2.3%) 
+vertexes              4617/65536       55404/786432   ( 7.0%) 
+nodes                 2083/65536       66656/2097152  ( 3.2%) 
+texinfos               222/12288       15984/884736   ( 1.8%) 
+texdata                 12/2048          384/65536    ( 0.6%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 3001/65536      168056/3670016  ( 4.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1687/65536       94472/3670016  ( 2.6%) 
+leaves                2149/65536       68768/2097152  ( 3.3%) 
+leaffaces             3463/65536        6926/131072   ( 5.3%) 
+leafbrushes           1230/65536        2460/131072   ( 1.9%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            20985/512000      83940/2048000  ( 4.1%) 
+edges                12170/256000      48680/1024000  ( 4.8%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            301/32768        3010/327680   ( 0.9%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          4617/65536        9234/131072   ( 7.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     1106540/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      181934/16777216 ( 1.1%) 
+entdata               [variable]       71230/393216   (18.1%) 
+LDR ambient table     2149/65536        8596/262144   ( 3.3%) 
+HDR ambient table     2149/65536        8596/262144   ( 3.3%) 
+LDR leaf ambient      1243/65536       34804/1835008  ( 1.9%) 
+HDR leaf ambient      2149/65536       60172/1835008  ( 3.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/15294    ( 0.0%) 
+pakfile               [variable]         378/0        ( 0.0%) 
+physics               [variable]      204289/4194304  ( 4.9%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 8234
+Writing c:\users\isaac\maps\pl_triplehill\pl_triplehill.bsp
+6 seconds elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading C:\Users\isaac\maps\pl_triplehill\pl_triplehill.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\isaac\maps\pl_triplehill\pl_triplehill.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (204289 bytes)
+Error! To use model "models/hybridphysx/badwater_destruction_before.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/hybridphysx/badwater_destruction_before.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 430 texinfos to 222
+Reduced 13 texdatas to 12 (306 bytes to 259)
+Writing C:\Users\isaac\maps\pl_triplehill\pl_triplehill.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'C:\Users\isaac\maps\pl_triplehill\pl_triplehill.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 458, actual size 378
+0 seconds elapsed
+
+
+
+32 threads
+reading c:\users\isaac\maps\pl_triplehill\pl_triplehill.bsp
+reading c:\users\isaac\maps\pl_triplehill\pl_triplehill.prt
+ 842 portalclusters
+2489 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 3148 visible clusters (0.77%)
+Total clusters visible: 407607
+Average clusters visible: 484
+Building PAS...
+Average clusters audible: 834
+visdatasize:181934  compressed from 188608
+writing c:\users\isaac\maps\pl_triplehill\pl_triplehill.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\isaac\maps\pl_triplehill\pl_triplehill.bsp', but we don't own that location. Allowing.
+20 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading c:\users\isaac\maps\pl_triplehill\pl_triplehill.bsp
+3001 faces
+2 degenerate faces
+797080 square feet [114779520.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+2999 patches before subdivision
+61193 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 6159722, max 713
+transfer lists:  47.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0056 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  65/1024         3120/49152    ( 6.3%) 
+brushes                544/8192         6528/98304    ( 6.6%) 
+brushsides            3482/65536       27856/524288   ( 5.3%) 
+planes                1504/65536       30080/1310720  ( 2.3%) 
+vertexes              4617/65536       55404/786432   ( 7.0%) 
+nodes                 2083/65536       66656/2097152  ( 3.2%) 
+texinfos               222/12288       15984/884736   ( 1.8%) 
+texdata                 12/2048          384/65536    ( 0.6%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 3001/65536      168056/3670016  ( 4.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1687/65536       94472/3670016  ( 2.6%) 
+leaves                2149/65536       68768/2097152  ( 3.3%) 
+leaffaces             3463/65536        6926/131072   ( 5.3%) 
+leafbrushes           1230/65536        2460/131072   ( 1.9%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            20985/512000      83940/2048000  ( 4.1%) 
+edges                12170/256000      48680/1024000  ( 4.8%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            301/32768        3010/327680   ( 0.9%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          4617/65536        9234/131072   ( 7.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     1106540/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      181934/16777216 ( 1.1%) 
+entdata               [variable]       71248/393216   (18.1%) 
+LDR ambient table     2149/65536        8596/262144   ( 3.3%) 
+HDR ambient table     2149/65536        8596/262144   ( 3.3%) 
+LDR leaf ambient      1243/65536       34804/1835008  ( 1.9%) 
+HDR leaf ambient      2149/65536       60172/1835008  ( 3.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/15294    ( 0.0%) 
+pakfile               [variable]         378/0        ( 0.0%) 
+physics               [variable]      204289/4194304  ( 4.9%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 8234
+Writing c:\users\isaac\maps\pl_triplehill\pl_triplehill.bsp
+6 seconds elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading C:\Users\isaac\maps\pl_triplehill\pl_triplehill.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\isaac\maps\pl_triplehill\pl_triplehill.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (204289 bytes)
+Error! To use model "models/hybridphysx/badwater_destruction_before.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/hybridphysx/badwater_destruction_before.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 430 texinfos to 222
+Reduced 13 texdatas to 12 (306 bytes to 259)
+Writing C:\Users\isaac\maps\pl_triplehill\pl_triplehill.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'C:\Users\isaac\maps\pl_triplehill\pl_triplehill.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 458, actual size 378
+0 seconds elapsed
+
+
+
+32 threads
+reading c:\users\isaac\maps\pl_triplehill\pl_triplehill.bsp
+reading c:\users\isaac\maps\pl_triplehill\pl_triplehill.prt
+ 842 portalclusters
+2489 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 3150 visible clusters (0.77%)
+Total clusters visible: 407609
+Average clusters visible: 484
+Building PAS...
+Average clusters audible: 834
+visdatasize:181934  compressed from 188608
+writing c:\users\isaac\maps\pl_triplehill\pl_triplehill.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\isaac\maps\pl_triplehill\pl_triplehill.bsp', but we don't own that location. Allowing.
+20 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading c:\users\isaac\maps\pl_triplehill\pl_triplehill.bsp
+3001 faces
+2 degenerate faces
+797080 square feet [114779520.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+2999 patches before subdivision
+61193 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 6159722, max 713
+transfer lists:  47.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0057 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  65/1024         3120/49152    ( 6.3%) 
+brushes                544/8192         6528/98304    ( 6.6%) 
+brushsides            3482/65536       27856/524288   ( 5.3%) 
+planes                1504/65536       30080/1310720  ( 2.3%) 
+vertexes              4617/65536       55404/786432   ( 7.0%) 
+nodes                 2083/65536       66656/2097152  ( 3.2%) 
+texinfos               222/12288       15984/884736   ( 1.8%) 
+texdata                 12/2048          384/65536    ( 0.6%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 3001/65536      168056/3670016  ( 4.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1687/65536       94472/3670016  ( 2.6%) 
+leaves                2149/65536       68768/2097152  ( 3.3%) 
+leaffaces             3463/65536        6926/131072   ( 5.3%) 
+leafbrushes           1230/65536        2460/131072   ( 1.9%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            20985/512000      83940/2048000  ( 4.1%) 
+edges                12170/256000      48680/1024000  ( 4.8%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            301/32768        3010/327680   ( 0.9%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          4617/65536        9234/131072   ( 7.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     1106540/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      181934/16777216 ( 1.1%) 
+entdata               [variable]       71622/393216   (18.2%) 
+LDR ambient table     2149/65536        8596/262144   ( 3.3%) 
+HDR ambient table     2149/65536        8596/262144   ( 3.3%) 
+LDR leaf ambient      1243/65536       34804/1835008  ( 1.9%) 
+HDR leaf ambient      2149/65536       60172/1835008  ( 3.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/15294    ( 0.0%) 
+pakfile               [variable]         378/0        ( 0.0%) 
+physics               [variable]      204289/4194304  ( 4.9%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 8234
+Writing c:\users\isaac\maps\pl_triplehill\pl_triplehill.bsp
+6 seconds elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading C:\Users\isaac\maps\pl_triplehill\pl_triplehill.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity prop_static (-608.00 -1048.00 64.25) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (204353 bytes)
+Error! To use model "models/hybridphysx/badwater_destruction_before.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/hybridphysx/badwater_destruction_before.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 431 texinfos to 223
+Reduced 13 texdatas to 12 (306 bytes to 259)
+Writing C:\Users\isaac\maps\pl_triplehill\pl_triplehill.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'C:\Users\isaac\maps\pl_triplehill\pl_triplehill.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 458, actual size 378
+0 seconds elapsed
+
+
+
+32 threads
+reading c:\users\isaac\maps\pl_triplehill\pl_triplehill.bsp
+reading c:\users\isaac\maps\pl_triplehill\pl_triplehill.prt
+LoadPortals: couldn't read c:\users\isaac\maps\pl_triplehill\pl_triplehill.prt
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading C:\Users\isaac\maps\pl_triplehill\pl_triplehill.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\isaac\maps\pl_triplehill\pl_triplehill.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (204633 bytes)
+Error! To use model "models/hybridphysx/badwater_destruction_before.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/hybridphysx/badwater_destruction_before.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 431 texinfos to 222
+Reduced 13 texdatas to 12 (306 bytes to 259)
+Writing C:\Users\isaac\maps\pl_triplehill\pl_triplehill.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'C:\Users\isaac\maps\pl_triplehill\pl_triplehill.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 458, actual size 378
+0 seconds elapsed
+
+
+
+32 threads
+reading c:\users\isaac\maps\pl_triplehill\pl_triplehill.bsp
+reading c:\users\isaac\maps\pl_triplehill\pl_triplehill.prt
+ 840 portalclusters
+2485 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 3157 visible clusters (0.78%)
+Total clusters visible: 405996
+Average clusters visible: 483
+Building PAS...
+Average clusters audible: 832
+visdatasize:179268  compressed from 188160
+writing c:\users\isaac\maps\pl_triplehill\pl_triplehill.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\isaac\maps\pl_triplehill\pl_triplehill.bsp', but we don't own that location. Allowing.
+20 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading c:\users\isaac\maps\pl_triplehill\pl_triplehill.bsp
+2996 faces
+2 degenerate faces
+797080 square feet [114779520.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+2994 patches before subdivision
+61254 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 6165901, max 712
+transfer lists:  47.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0056 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  65/1024         3120/49152    ( 6.3%) 
+brushes                545/8192         6540/98304    ( 6.7%) 
+brushsides            3488/65536       27904/524288   ( 5.3%) 
+planes                1506/65536       30120/1310720  ( 2.3%) 
+vertexes              4606/65536       55272/786432   ( 7.0%) 
+nodes                 2077/65536       66464/2097152  ( 3.2%) 
+texinfos               222/12288       15984/884736   ( 1.8%) 
+texdata                 12/2048          384/65536    ( 0.6%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 2996/65536      167776/3670016  ( 4.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1685/65536       94360/3670016  ( 2.6%) 
+leaves                2143/65536       68576/2097152  ( 3.3%) 
+leaffaces             3457/65536        6914/131072   ( 5.3%) 
+leafbrushes           1231/65536        2462/131072   ( 1.9%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            20951/512000      83804/2048000  ( 4.1%) 
+edges                12151/256000      48604/1024000  ( 4.7%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            301/32768        3010/327680   ( 0.9%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          4605/65536        9210/131072   ( 7.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     1108004/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      179268/16777216 ( 1.1%) 
+entdata               [variable]       71804/393216   (18.3%) 
+LDR ambient table     2143/65536        8572/262144   ( 3.3%) 
+HDR ambient table     2143/65536        8572/262144   ( 3.3%) 
+LDR leaf ambient      1241/65536       34748/1835008  ( 1.9%) 
+HDR leaf ambient      2143/65536       60004/1835008  ( 3.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/15294    ( 0.0%) 
+pakfile               [variable]         378/0        ( 0.0%) 
+physics               [variable]      204633/4194304  ( 4.9%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 8218
+Writing c:\users\isaac\maps\pl_triplehill\pl_triplehill.bsp
+6 seconds elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading C:\Users\isaac\maps\pl_triplehill\pl_triplehill.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\isaac\maps\pl_triplehill\pl_triplehill.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (204633 bytes)
+Error! To use model "models/hybridphysx/badwater_destruction_before.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/hybridphysx/badwater_destruction_before.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 431 texinfos to 222
+Reduced 13 texdatas to 12 (306 bytes to 259)
+Writing C:\Users\isaac\maps\pl_triplehill\pl_triplehill.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'C:\Users\isaac\maps\pl_triplehill\pl_triplehill.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 458, actual size 378
+0 seconds elapsed
+
+
+
+32 threads
+reading c:\users\isaac\maps\pl_triplehill\pl_triplehill.bsp
+reading c:\users\isaac\maps\pl_triplehill\pl_triplehill.prt
+ 840 portalclusters
+2485 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 3157 visible clusters (0.78%)
+Total clusters visible: 405996
+Average clusters visible: 483
+Building PAS...
+Average clusters audible: 832
+visdatasize:179268  compressed from 188160
+writing c:\users\isaac\maps\pl_triplehill\pl_triplehill.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\isaac\maps\pl_triplehill\pl_triplehill.bsp', but we don't own that location. Allowing.
+20 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading c:\users\isaac\maps\pl_triplehill\pl_triplehill.bsp
+2996 faces
+2 degenerate faces
+797080 square feet [114779520.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+2994 patches before subdivision
+61254 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 6165894, max 712
+transfer lists:  47.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0057 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  65/1024         3120/49152    ( 6.3%) 
+brushes                545/8192         6540/98304    ( 6.7%) 
+brushsides            3488/65536       27904/524288   ( 5.3%) 
+planes                1500/65536       30000/1310720  ( 2.3%) 
+vertexes              4606/65536       55272/786432   ( 7.0%) 
+nodes                 2077/65536       66464/2097152  ( 3.2%) 
+texinfos               222/12288       15984/884736   ( 1.8%) 
+texdata                 12/2048          384/65536    ( 0.6%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 2996/65536      167776/3670016  ( 4.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1685/65536       94360/3670016  ( 2.6%) 
+leaves                2143/65536       68576/2097152  ( 3.3%) 
+leaffaces             3457/65536        6914/131072   ( 5.3%) 
+leafbrushes           1231/65536        2462/131072   ( 1.9%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            20951/512000      83804/2048000  ( 4.1%) 
+edges                12151/256000      48604/1024000  ( 4.7%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            301/32768        3010/327680   ( 0.9%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          4605/65536        9210/131072   ( 7.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     1108004/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      179268/16777216 ( 1.1%) 
+entdata               [variable]       71804/393216   (18.3%) 
+LDR ambient table     2143/65536        8572/262144   ( 3.3%) 
+HDR ambient table     2143/65536        8572/262144   ( 3.3%) 
+LDR leaf ambient      1241/65536       34748/1835008  ( 1.9%) 
+HDR leaf ambient      2143/65536       60004/1835008  ( 3.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/15294    ( 0.0%) 
+pakfile               [variable]         378/0        ( 0.0%) 
+physics               [variable]      204633/4194304  ( 4.9%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 8218
+Writing c:\users\isaac\maps\pl_triplehill\pl_triplehill.bsp
+6 seconds elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading C:\Users\isaac\maps\pl_triplehill\pl_triplehill.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\isaac\maps\pl_triplehill\pl_triplehill.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (204633 bytes)
+Error! To use model "models/hybridphysx/badwater_destruction_before.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/hybridphysx/badwater_destruction_before.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 431 texinfos to 222
+Reduced 13 texdatas to 12 (306 bytes to 259)
+Writing C:\Users\isaac\maps\pl_triplehill\pl_triplehill.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'C:\Users\isaac\maps\pl_triplehill\pl_triplehill.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 458, actual size 378
+0 seconds elapsed
+
+
+
+32 threads
+reading c:\users\isaac\maps\pl_triplehill\pl_triplehill.bsp
+reading c:\users\isaac\maps\pl_triplehill\pl_triplehill.prt
+ 840 portalclusters
+2485 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 3157 visible clusters (0.78%)
+Total clusters visible: 405996
+Average clusters visible: 483
+Building PAS...
+Average clusters audible: 832
+visdatasize:179268  compressed from 188160
+writing c:\users\isaac\maps\pl_triplehill\pl_triplehill.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\isaac\maps\pl_triplehill\pl_triplehill.bsp', but we don't own that location. Allowing.
+18 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading c:\users\isaac\maps\pl_triplehill\pl_triplehill.bsp
+2996 faces
+2 degenerate faces
+797080 square feet [114779520.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+2994 patches before subdivision
+61254 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 6165894, max 712
+transfer lists:  47.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0056 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  65/1024         3120/49152    ( 6.3%) 
+brushes                545/8192         6540/98304    ( 6.7%) 
+brushsides            3488/65536       27904/524288   ( 5.3%) 
+planes                1500/65536       30000/1310720  ( 2.3%) 
+vertexes              4606/65536       55272/786432   ( 7.0%) 
+nodes                 2077/65536       66464/2097152  ( 3.2%) 
+texinfos               222/12288       15984/884736   ( 1.8%) 
+texdata                 12/2048          384/65536    ( 0.6%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 2996/65536      167776/3670016  ( 4.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1685/65536       94360/3670016  ( 2.6%) 
+leaves                2143/65536       68576/2097152  ( 3.3%) 
+leaffaces             3457/65536        6914/131072   ( 5.3%) 
+leafbrushes           1231/65536        2462/131072   ( 1.9%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            20951/512000      83804/2048000  ( 4.1%) 
+edges                12151/256000      48604/1024000  ( 4.7%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            301/32768        3010/327680   ( 0.9%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          4605/65536        9210/131072   ( 7.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     1108004/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      179268/16777216 ( 1.1%) 
+entdata               [variable]       71804/393216   (18.3%) 
+LDR ambient table     2143/65536        8572/262144   ( 3.3%) 
+HDR ambient table     2143/65536        8572/262144   ( 3.3%) 
+LDR leaf ambient      1241/65536       34748/1835008  ( 1.9%) 
+HDR leaf ambient      2143/65536       60004/1835008  ( 3.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/15294    ( 0.0%) 
+pakfile               [variable]         378/0        ( 0.0%) 
+physics               [variable]      204633/4194304  ( 4.9%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 8218
+Writing c:\users\isaac\maps\pl_triplehill\pl_triplehill.bsp
+6 seconds elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading C:\Users\isaac\maps\pl_triplehill\pl_triplehill.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\isaac\maps\pl_triplehill\pl_triplehill.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (204633 bytes)
+Error! To use model "models/hybridphysx/badwater_destruction_before.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/hybridphysx/badwater_destruction_before.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 431 texinfos to 222
+Reduced 13 texdatas to 12 (306 bytes to 259)
+Writing C:\Users\isaac\maps\pl_triplehill\pl_triplehill.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'C:\Users\isaac\maps\pl_triplehill\pl_triplehill.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 458, actual size 378
+0 seconds elapsed
+
+
+
+32 threads
+reading c:\users\isaac\maps\pl_triplehill\pl_triplehill.bsp
+reading c:\users\isaac\maps\pl_triplehill\pl_triplehill.prt
+ 840 portalclusters
+2485 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4.
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading C:\Users\isaac\maps\pl_triplehill\pl_triplehill.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\isaac\maps\pl_triplehill\pl_triplehill.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (204633 bytes)
+Error! To use model "models/hybridphysx/badwater_destruction_before.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/hybridphysx/badwater_destruction_before.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 430 texinfos to 222
+Reduced 13 texdatas to 12 (306 bytes to 259)
+Writing C:\Users\isaac\maps\pl_triplehill\pl_triplehill.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'C:\Users\isaac\maps\pl_triplehill\pl_triplehill.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 458, actual size 378
+0 seconds elapsed
+
+
+
+32 threads
+reading c:\users\isaac\maps\pl_triplehill\pl_triplehill.bsp
+reading c:\users\isaac\maps\pl_triplehill\pl_triplehill.prt
+ 840 portalclusters
+2485 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 3157 visible clusters (0.78%)
+Total clusters visible: 405996
+Average clusters visible: 483
+Building PAS...
+Average clusters audible: 832
+visdatasize:179268  compressed from 188160
+writing c:\users\isaac\maps\pl_triplehill\pl_triplehill.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\isaac\maps\pl_triplehill\pl_triplehill.bsp', but we don't own that location. Allowing.
+20 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading c:\users\isaac\maps\pl_triplehill\pl_triplehill.bsp
+2996 faces
+2 degenerate faces
+797080 square feet [114779520.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+2994 patches before subdivision
+61254 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 6165895, max 712
+transfer lists:  47.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0056 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  65/1024         3120/49152    ( 6.3%) 
+brushes                545/8192         6540/98304    ( 6.7%) 
+brushsides            3488/65536       27904/524288   ( 5.3%) 
+planes                1504/65536       30080/1310720  ( 2.3%) 
+vertexes              4606/65536       55272/786432   ( 7.0%) 
+nodes                 2077/65536       66464/2097152  ( 3.2%) 
+texinfos               222/12288       15984/884736   ( 1.8%) 
+texdata                 12/2048          384/65536    ( 0.6%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 2996/65536      167776/3670016  ( 4.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1685/65536       94360/3670016  ( 2.6%) 
+leaves                2143/65536       68576/2097152  ( 3.3%) 
+leaffaces             3457/65536        6914/131072   ( 5.3%) 
+leafbrushes           1231/65536        2462/131072   ( 1.9%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            20951/512000      83804/2048000  ( 4.1%) 
+edges                12151/256000      48604/1024000  ( 4.7%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            301/32768        3010/327680   ( 0.9%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          4605/65536        9210/131072   ( 7.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     1108004/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      179268/16777216 ( 1.1%) 
+entdata               [variable]       71804/393216   (18.3%) 
+LDR ambient table     2143/65536        8572/262144   ( 3.3%) 
+HDR ambient table     2143/65536        8572/262144   ( 3.3%) 
+LDR leaf ambient      1241/65536       34748/1835008  ( 1.9%) 
+HDR leaf ambient      2143/65536       60004/1835008  ( 3.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/15294    ( 0.0%) 
+pakfile               [variable]         378/0        ( 0.0%) 
+physics               [variable]      204633/4194304  ( 4.9%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 8218
+Writing c:\users\isaac\maps\pl_triplehill\pl_triplehill.bsp
+6 seconds elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading C:\Users\isaac\maps\pl_triplehill\pl_triplehill.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\isaac\maps\pl_triplehill\pl_triplehill.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (204633 bytes)
+Error! To use model "models/hybridphysx/badwater_destruction_before.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/hybridphysx/badwater_destruction_before.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 432 texinfos to 222
+Reduced 13 texdatas to 12 (306 bytes to 259)
+Writing C:\Users\isaac\maps\pl_triplehill\pl_triplehill.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'C:\Users\isaac\maps\pl_triplehill\pl_triplehill.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 458, actual size 378
+0 seconds elapsed
+
+
+
+32 threads
+reading c:\users\isaac\maps\pl_triplehill\pl_triplehill.bsp
+reading c:\users\isaac\maps\pl_triplehill\pl_triplehill.prt
+ 840 portalclusters
+2485 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 3156 visible clusters (0.78%)
+Total clusters visible: 405995
+Average clusters visible: 483
+Building PAS...
+Average clusters audible: 832
+visdatasize:179268  compressed from 188160
+writing c:\users\isaac\maps\pl_triplehill\pl_triplehill.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\isaac\maps\pl_triplehill\pl_triplehill.bsp', but we don't own that location. Allowing.
+21 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading c:\users\isaac\maps\pl_triplehill\pl_triplehill.bsp
+2996 faces
+2 degenerate faces
+797080 square feet [114779520.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+2994 patches before subdivision
+61254 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 6165896, max 712
+transfer lists:  47.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0057 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  65/1024         3120/49152    ( 6.3%) 
+brushes                545/8192         6540/98304    ( 6.7%) 
+brushsides            3488/65536       27904/524288   ( 5.3%) 
+planes                1510/65536       30200/1310720  ( 2.3%) 
+vertexes              4606/65536       55272/786432   ( 7.0%) 
+nodes                 2077/65536       66464/2097152  ( 3.2%) 
+texinfos               222/12288       15984/884736   ( 1.8%) 
+texdata                 12/2048          384/65536    ( 0.6%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 2996/65536      167776/3670016  ( 4.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1685/65536       94360/3670016  ( 2.6%) 
+leaves                2143/65536       68576/2097152  ( 3.3%) 
+leaffaces             3457/65536        6914/131072   ( 5.3%) 
+leafbrushes           1231/65536        2462/131072   ( 1.9%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            20951/512000      83804/2048000  ( 4.1%) 
+edges                12151/256000      48604/1024000  ( 4.7%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            301/32768        3010/327680   ( 0.9%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          4605/65536        9210/131072   ( 7.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     1108004/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      179268/16777216 ( 1.1%) 
+entdata               [variable]       71811/393216   (18.3%) 
+LDR ambient table     2143/65536        8572/262144   ( 3.3%) 
+HDR ambient table     2143/65536        8572/262144   ( 3.3%) 
+LDR leaf ambient      1241/65536       34748/1835008  ( 1.9%) 
+HDR leaf ambient      2143/65536       60004/1835008  ( 3.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/15294    ( 0.0%) 
+pakfile               [variable]         378/0        ( 0.0%) 
+physics               [variable]      204633/4194304  ( 4.9%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 8218
+Writing c:\users\isaac\maps\pl_triplehill\pl_triplehill.bsp
+6 seconds elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading C:\Users\isaac\maps\pl_triplehill\pl_triplehill.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\isaac\maps\pl_triplehill\pl_triplehill.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (204633 bytes)
+Error! To use model "models/hybridphysx/badwater_destruction_before.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/hybridphysx/badwater_destruction_before.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 431 texinfos to 222
+Reduced 13 texdatas to 12 (306 bytes to 259)
+Writing C:\Users\isaac\maps\pl_triplehill\pl_triplehill.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'C:\Users\isaac\maps\pl_triplehill\pl_triplehill.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 458, actual size 378
+0 seconds elapsed
+
+
+
+32 threads
+reading c:\users\isaac\maps\pl_triplehill\pl_triplehill.bsp
+reading c:\users\isaac\maps\pl_triplehill\pl_triplehill.prt
+ 840 portalclusters
+2485 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8.
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading C:\Users\isaac\maps\pl_triplehill\pl_triplehill.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\isaac\maps\pl_triplehill\pl_triplehill.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (204633 bytes)
+Error! To use model "models/hybridphysx/badwater_destruction_before.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/hybridphysx/badwater_destruction_before.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 431 texinfos to 222
+Reduced 13 texdatas to 12 (306 bytes to 259)
+Writing C:\Users\isaac\maps\pl_triplehill\pl_triplehill.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'C:\Users\isaac\maps\pl_triplehill\pl_triplehill.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 458, actual size 378
+0 seconds elapsed
+
+
+
+32 threads
+reading c:\users\isaac\maps\pl_triplehill\pl_triplehill.bsp
+reading c:\users\isaac\maps\pl_triplehill\pl_triplehill.prt
+ 840 portalclusters
+2485 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 3156 visible clusters (0.78%)
+Total clusters visible: 405995
+Average clusters visible: 483
+Building PAS...
+Average clusters audible: 832
+visdatasize:179268  compressed from 188160
+writing c:\users\isaac\maps\pl_triplehill\pl_triplehill.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\isaac\maps\pl_triplehill\pl_triplehill.bsp', but we don't own that location. Allowing.
+20 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading c:\users\isaac\maps\pl_triplehill\pl_triplehill.bsp
+2996 faces
+2 degenerate faces
+797080 square feet [114779520.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+2994 patches before subdivision
+61254 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 6165897, max 712
+transfer lists:  47.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0057 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  65/1024         3120/49152    ( 6.3%) 
+brushes                545/8192         6540/98304    ( 6.7%) 
+brushsides            3488/65536       27904/524288   ( 5.3%) 
+planes                1518/65536       30360/1310720  ( 2.3%) 
+vertexes              4606/65536       55272/786432   ( 7.0%) 
+nodes                 2077/65536       66464/2097152  ( 3.2%) 
+texinfos               222/12288       15984/884736   ( 1.8%) 
+texdata                 12/2048          384/65536    ( 0.6%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 2996/65536      167776/3670016  ( 4.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1685/65536       94360/3670016  ( 2.6%) 
+leaves                2143/65536       68576/2097152  ( 3.3%) 
+leaffaces             3457/65536        6914/131072   ( 5.3%) 
+leafbrushes           1231/65536        2462/131072   ( 1.9%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            20951/512000      83804/2048000  ( 4.1%) 
+edges                12151/256000      48604/1024000  ( 4.7%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            301/32768        3010/327680   ( 0.9%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          4605/65536        9210/131072   ( 7.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     1108004/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      179268/16777216 ( 1.1%) 
+entdata               [variable]       71813/393216   (18.3%) 
+LDR ambient table     2143/65536        8572/262144   ( 3.3%) 
+HDR ambient table     2143/65536        8572/262144   ( 3.3%) 
+LDR leaf ambient      1241/65536       34748/1835008  ( 1.9%) 
+HDR leaf ambient      2143/65536       60004/1835008  ( 3.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/15294    ( 0.0%) 
+pakfile               [variable]         378/0        ( 0.0%) 
+physics               [variable]      204633/4194304  ( 4.9%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 8218
+Writing c:\users\isaac\maps\pl_triplehill\pl_triplehill.bsp
+6 seconds elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading C:\Users\isaac\maps\pl_triplehill\pl_triplehill.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\isaac\maps\pl_triplehill\pl_triplehill.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (204633 bytes)
+Error! To use model "models/hybridphysx/badwater_destruction_before.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/hybridphysx/badwater_destruction_before.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 431 texinfos to 222
+Reduced 13 texdatas to 12 (306 bytes to 259)
+Writing C:\Users\isaac\maps\pl_triplehill\pl_triplehill.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'C:\Users\isaac\maps\pl_triplehill\pl_triplehill.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 458, actual size 378
+0 seconds elapsed
+
+
+
+32 threads
+reading c:\users\isaac\maps\pl_triplehill\pl_triplehill.bsp
+reading c:\users\isaac\maps\pl_triplehill\pl_triplehill.prt
+ 840 portalclusters
+2485 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 3156 visible clusters (0.78%)
+Total clusters visible: 405995
+Average clusters visible: 483
+Building PAS...
+Average clusters audible: 832
+visdatasize:179268  compressed from 188160
+writing c:\users\isaac\maps\pl_triplehill\pl_triplehill.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\isaac\maps\pl_triplehill\pl_triplehill.bsp', but we don't own that location. Allowing.
+20 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading c:\users\isaac\maps\pl_triplehill\pl_triplehill.bsp
+2996 faces
+2 degenerate faces
+797080 square feet [114779520.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+2994 patches before subdivision
+61254 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 6162778, max 710
+transfer lists:  47.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0056 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  65/1024         3120/49152    ( 6.3%) 
+brushes                545/8192         6540/98304    ( 6.7%) 
+brushsides            3488/65536       27904/524288   ( 5.3%) 
+planes                1508/65536       30160/1310720  ( 2.3%) 
+vertexes              4606/65536       55272/786432   ( 7.0%) 
+nodes                 2077/65536       66464/2097152  ( 3.2%) 
+texinfos               222/12288       15984/884736   ( 1.8%) 
+texdata                 12/2048          384/65536    ( 0.6%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 2996/65536      167776/3670016  ( 4.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1685/65536       94360/3670016  ( 2.6%) 
+leaves                2143/65536       68576/2097152  ( 3.3%) 
+leaffaces             3457/65536        6914/131072   ( 5.3%) 
+leafbrushes           1231/65536        2462/131072   ( 1.9%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            20951/512000      83804/2048000  ( 4.1%) 
+edges                12151/256000      48604/1024000  ( 4.7%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            301/32768        3010/327680   ( 0.9%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          4605/65536        9210/131072   ( 7.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     1108004/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      179268/16777216 ( 1.1%) 
+entdata               [variable]       71814/393216   (18.3%) 
+LDR ambient table     2143/65536        8572/262144   ( 3.3%) 
+HDR ambient table     2143/65536        8572/262144   ( 3.3%) 
+LDR leaf ambient      1241/65536       34748/1835008  ( 1.9%) 
+HDR leaf ambient      2143/65536       60004/1835008  ( 3.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/15294    ( 0.0%) 
+pakfile               [variable]         378/0        ( 0.0%) 
+physics               [variable]      204633/4194304  ( 4.9%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 8218
+Writing c:\users\isaac\maps\pl_triplehill\pl_triplehill.bsp
+6 seconds elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading C:\Users\isaac\maps\pl_triplehill\pl_triplehill.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\isaac\maps\pl_triplehill\pl_triplehill.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (204633 bytes)
+Error! To use model "models/hybridphysx/badwater_destruction_before.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/hybridphysx/badwater_destruction_before.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 431 texinfos to 222
+Reduced 13 texdatas to 12 (306 bytes to 259)
+Writing C:\Users\isaac\maps\pl_triplehill\pl_triplehill.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'C:\Users\isaac\maps\pl_triplehill\pl_triplehill.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 458, actual size 378
+0 seconds elapsed
+
+
+
+32 threads
+reading c:\users\isaac\maps\pl_triplehill\pl_triplehill.bsp
+reading c:\users\isaac\maps\pl_triplehill\pl_triplehill.prt
+ 840 portalclusters
+2485 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 3157 visible clusters (0.78%)
+Total clusters visible: 405996
+Average clusters visible: 483
+Building PAS...
+Average clusters audible: 832
+visdatasize:179268  compressed from 188160
+writing c:\users\isaac\maps\pl_triplehill\pl_triplehill.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\isaac\maps\pl_triplehill\pl_triplehill.bsp', but we don't own that location. Allowing.
+18 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading c:\users\isaac\maps\pl_triplehill\pl_triplehill.bsp
+2996 faces
+2 degenerate faces
+797080 square feet [114779520.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+2994 patches before subdivision
+61254 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 6162778, max 710
+transfer lists:  47.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0057 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  65/1024         3120/49152    ( 6.3%) 
+brushes                545/8192         6540/98304    ( 6.7%) 
+brushsides            3488/65536       27904/524288   ( 5.3%) 
+planes                1508/65536       30160/1310720  ( 2.3%) 
+vertexes              4606/65536       55272/786432   ( 7.0%) 
+nodes                 2077/65536       66464/2097152  ( 3.2%) 
+texinfos               222/12288       15984/884736   ( 1.8%) 
+texdata                 12/2048          384/65536    ( 0.6%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 2996/65536      167776/3670016  ( 4.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1685/65536       94360/3670016  ( 2.6%) 
+leaves                2143/65536       68576/2097152  ( 3.3%) 
+leaffaces             3457/65536        6914/131072   ( 5.3%) 
+leafbrushes           1231/65536        2462/131072   ( 1.9%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            20951/512000      83804/2048000  ( 4.1%) 
+edges                12151/256000      48604/1024000  ( 4.7%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            301/32768        3010/327680   ( 0.9%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          4605/65536        9210/131072   ( 7.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     1108004/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      179268/16777216 ( 1.1%) 
+entdata               [variable]       71814/393216   (18.3%) 
+LDR ambient table     2143/65536        8572/262144   ( 3.3%) 
+HDR ambient table     2143/65536        8572/262144   ( 3.3%) 
+LDR leaf ambient      1241/65536       34748/1835008  ( 1.9%) 
+HDR leaf ambient      2143/65536       60004/1835008  ( 3.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/15294    ( 0.0%) 
+pakfile               [variable]         378/0        ( 0.0%) 
+physics               [variable]      204633/4194304  ( 4.9%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 8218
+Writing c:\users\isaac\maps\pl_triplehill\pl_triplehill.bsp
+6 seconds elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading C:\Users\isaac\maps\pl_triplehill\pl_triplehill.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\isaac\maps\pl_triplehill\pl_triplehill.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (204633 bytes)
+Error! To use model "models/hybridphysx/badwater_destruction_before.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/hybridphysx/badwater_destruction_before.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 430 texinfos to 222
+Reduced 13 texdatas to 12 (306 bytes to 259)
+Writing C:\Users\isaac\maps\pl_triplehill\pl_triplehill.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'C:\Users\isaac\maps\pl_triplehill\pl_triplehill.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 458, actual size 378
+0 seconds elapsed
+
+
+
+32 threads
+reading c:\users\isaac\maps\pl_triplehill\pl_triplehill.bsp
+reading c:\users\isaac\maps\pl_triplehill\pl_triplehill.prt
+ 840 portalclusters
+2485 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 3156 visible clusters (0.78%)
+Total clusters visible: 405995
+Average clusters visible: 483
+Building PAS...
+Average clusters audible: 832
+visdatasize:179268  compressed from 188160
+writing c:\users\isaac\maps\pl_triplehill\pl_triplehill.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\isaac\maps\pl_triplehill\pl_triplehill.bsp', but we don't own that location. Allowing.
+21 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading c:\users\isaac\maps\pl_triplehill\pl_triplehill.bsp
+2996 faces
+2 degenerate faces
+797080 square feet [114779520.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+2994 patches before subdivision
+61254 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 6162776, max 710
+transfer lists:  47.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0057 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  65/1024         3120/49152    ( 6.3%) 
+brushes                545/8192         6540/98304    ( 6.7%) 
+brushsides            3488/65536       27904/524288   ( 5.3%) 
+planes                1504/65536       30080/1310720  ( 2.3%) 
+vertexes              4606/65536       55272/786432   ( 7.0%) 
+nodes                 2077/65536       66464/2097152  ( 3.2%) 
+texinfos               222/12288       15984/884736   ( 1.8%) 
+texdata                 12/2048          384/65536    ( 0.6%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 2996/65536      167776/3670016  ( 4.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1685/65536       94360/3670016  ( 2.6%) 
+leaves                2143/65536       68576/2097152  ( 3.3%) 
+leaffaces             3457/65536        6914/131072   ( 5.3%) 
+leafbrushes           1231/65536        2462/131072   ( 1.9%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            20951/512000      83804/2048000  ( 4.1%) 
+edges                12151/256000      48604/1024000  ( 4.7%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            301/32768        3010/327680   ( 0.9%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          4605/65536        9210/131072   ( 7.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     1108004/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      179268/16777216 ( 1.1%) 
+entdata               [variable]       71814/393216   (18.3%) 
+LDR ambient table     2143/65536        8572/262144   ( 3.3%) 
+HDR ambient table     2143/65536        8572/262144   ( 3.3%) 
+LDR leaf ambient      1241/65536       34748/1835008  ( 1.9%) 
+HDR leaf ambient      2143/65536       60004/1835008  ( 3.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/15294    ( 0.0%) 
+pakfile               [variable]         378/0        ( 0.0%) 
+physics               [variable]      204633/4194304  ( 4.9%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 8218
+Writing c:\users\isaac\maps\pl_triplehill\pl_triplehill.bsp
+6 seconds elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading C:\Users\isaac\maps\pl_triplehill\pl_triplehill.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\isaac\maps\pl_triplehill\pl_triplehill.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (204633 bytes)
+Error! To use model "models/hybridphysx/badwater_destruction_before.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/hybridphysx/badwater_destruction_before.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 430 texinfos to 222
+Reduced 13 texdatas to 12 (306 bytes to 259)
+Writing C:\Users\isaac\maps\pl_triplehill\pl_triplehill.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'C:\Users\isaac\maps\pl_triplehill\pl_triplehill.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 458, actual size 378
+0 seconds elapsed
+
+
+
+32 threads
+reading c:\users\isaac\maps\pl_triplehill\pl_triplehill.bsp
+reading c:\users\isaac\maps\pl_triplehill\pl_triplehill.prt
+ 840 portalclusters
+2485 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 3157 visible clusters (0.78%)
+Total clusters visible: 405996
+Average clusters visible: 483
+Building PAS...
+Average clusters audible: 832
+visdatasize:179268  compressed from 188160
+writing c:\users\isaac\maps\pl_triplehill\pl_triplehill.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\isaac\maps\pl_triplehill\pl_triplehill.bsp', but we don't own that location. Allowing.
+21 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading c:\users\isaac\maps\pl_triplehill\pl_triplehill.bsp
+2996 faces
+2 degenerate faces
+797080 square feet [114779520.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+2994 patches before subdivision
+61254 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 6162776, max 710
+transfer lists:  47.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0055 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  65/1024         3120/49152    ( 6.3%) 
+brushes                545/8192         6540/98304    ( 6.7%) 
+brushsides            3488/65536       27904/524288   ( 5.3%) 
+planes                1504/65536       30080/1310720  ( 2.3%) 
+vertexes              4606/65536       55272/786432   ( 7.0%) 
+nodes                 2077/65536       66464/2097152  ( 3.2%) 
+texinfos               222/12288       15984/884736   ( 1.8%) 
+texdata                 12/2048          384/65536    ( 0.6%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 2996/65536      167776/3670016  ( 4.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1685/65536       94360/3670016  ( 2.6%) 
+leaves                2143/65536       68576/2097152  ( 3.3%) 
+leaffaces             3457/65536        6914/131072   ( 5.3%) 
+leafbrushes           1231/65536        2462/131072   ( 1.9%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            20951/512000      83804/2048000  ( 4.1%) 
+edges                12151/256000      48604/1024000  ( 4.7%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            301/32768        3010/327680   ( 0.9%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          4605/65536        9210/131072   ( 7.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     1108004/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      179268/16777216 ( 1.1%) 
+entdata               [variable]       71815/393216   (18.3%) 
+LDR ambient table     2143/65536        8572/262144   ( 3.3%) 
+HDR ambient table     2143/65536        8572/262144   ( 3.3%) 
+LDR leaf ambient      1241/65536       34748/1835008  ( 1.9%) 
+HDR leaf ambient      2143/65536       60004/1835008  ( 3.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/15294    ( 0.0%) 
+pakfile               [variable]         378/0        ( 0.0%) 
+physics               [variable]      204633/4194304  ( 4.9%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 8218
+Writing c:\users\isaac\maps\pl_triplehill\pl_triplehill.bsp
+6 seconds elapsed
